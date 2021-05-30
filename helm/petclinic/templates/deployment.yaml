@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: petclinic-container
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        image: "narendra1416/petclinic:latest"
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
