@@ -29,6 +29,3 @@ spec:
         - containerPort: 8080
       imagePullSecrets:
       - name: regcred
-
-
-
